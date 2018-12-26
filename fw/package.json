@@ -1,5 +1,5 @@
 {
-	"name": "ias3a",
+	"name": "nanook-as",
 	"version": "1.0.0",
 	"author": "paul",
 	"dependencies": {
@@ -11,7 +11,7 @@
 	"silicon": {
 		"sources": [
 			"periodic-adc.cpp",
-			"ias3a.cpp"
+			"nanook-as.cpp"
 		],
 		"symbols": {
 			"ROM_START": "0x08000000",
