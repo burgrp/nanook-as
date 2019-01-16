@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "ntc-gen"
+		},
+		{
+			"path": "fw"
+		},
+		{
+			"path": "test"
+		}
+	],
+	"settings": {}
+}
