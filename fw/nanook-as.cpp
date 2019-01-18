@@ -43,6 +43,7 @@ void interruptHandlerEXTI0_1() {
 void initApplication() {
 
 	target::RCC.AHBENR.setIOPAEN(true);
+	target::RCC.AHBENR.setIOPBEN(true);
 	
 	// I2C peripheral
 	target::GPIOA.AFRH.setAFRH(9, 4);

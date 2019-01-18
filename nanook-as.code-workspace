@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "test"
+		},
+		{
+			"path": "/home/paul/df/nanook-js"
 		}
 	],
 	"settings": {}
