@@ -1,40 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:device.farm
-LIBS:MCU_ST_STM32F0
+EESchema Schematic File Version 4
 LIBS:nanook-as-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x02 J5
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5C22FBED
 P 5200 2850
 AR Path="/5C22FBC8/5C22FBED" Ref="J5"  Part="1" 
@@ -58,13 +24,13 @@ AR Path="/5C2318B8/5C22FBED" Ref="J7"  Part="1"
 AR Path="/5C2319D5/5C22FBED" Ref="J8"  Part="1" 
 F 0 "J8" H 5550 2700 50  0000 C CNN
 F 1 "Conn_01x02" H 5550 2800 50  0000 C CNN
-F 2 "Connectors_JST:JST_XH_S02B-XH-A_02x2.50mm_Angled" H 5200 2850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal" H 5200 2850 50  0001 C CNN
 F 3 "" H 5200 2850 50  0001 C CNN
 	1    5200 2850
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L Device:R R5
 U 1 1 5C22FC9D
 P 5500 3050
 AR Path="/5C22FBC8/5C22FC9D" Ref="R5"  Part="1" 
@@ -73,13 +39,13 @@ AR Path="/5C2318B8/5C22FC9D" Ref="R7"  Part="1"
 AR Path="/5C2319D5/5C22FC9D" Ref="R8"  Part="1" 
 F 0 "R8" H 5650 3100 50  0000 C CNN
 F 1 "100k" H 5700 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5430 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 3050 50  0001 C CNN
 F 3 "" H 5500 3050 50  0001 C CNN
 	1    5500 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR034
+L power:+3V3 #PWR034
 U 1 1 5C22FCDE
 P 5500 2700
 AR Path="/5C22FBC8/5C22FCDE" Ref="#PWR034"  Part="1" 
@@ -94,7 +60,7 @@ F 3 "" H 5500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L4
+L Device:L L4
 U 1 1 5C230C76
 P 5850 2850
 AR Path="/5C22FBC8/5C230C76" Ref="L4"  Part="1" 
@@ -103,13 +69,13 @@ AR Path="/5C2318B8/5C230C76" Ref="L6"  Part="1"
 AR Path="/5C2319D5/5C230C76" Ref="L7"  Part="1" 
 F 0 "L7" V 6000 2850 50  0000 C CNN
 F 1 "22uH" V 5925 2850 50  0000 C CNN
-F 2 "Inductors_SMD:L_0805" H 5850 2850 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 5850 2850 50  0001 C CNN
 F 3 "" H 5850 2850 50  0001 C CNN
 	1    5850 2850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C8
+L Device:C C8
 U 1 1 5C230CB7
 P 6150 3000
 AR Path="/5C22FBC8/5C230CB7" Ref="C8"  Part="1" 
@@ -118,7 +84,7 @@ AR Path="/5C2318B8/5C230CB7" Ref="C10"  Part="1"
 AR Path="/5C2319D5/5C230CB7" Ref="C11"  Part="1" 
 F 0 "C11" H 6300 3000 50  0000 L CNN
 F 1 "100n" H 6250 2900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6188 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6188 2850 50  0001 C CNN
 F 3 "" H 6150 3000 50  0001 C CNN
 	1    6150 3000
 	1    0    0    -1  
@@ -131,7 +97,7 @@ Wire Wire Line
 	6000 2850 6350 2850
 Connection ~ 6150 2850
 $Comp
-L GND #PWR035
+L power:GND #PWR035
 U 1 1 5C230D1E
 P 5500 3200
 AR Path="/5C22FBC8/5C230D1E" Ref="#PWR035"  Part="1" 
@@ -146,7 +112,7 @@ F 3 "" H 5500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 5C230D38
 P 6150 3150
 AR Path="/5C22FBC8/5C230D38" Ref="#PWR036"  Part="1" 
