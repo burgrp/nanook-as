@@ -551,4 +551,5 @@ Wire Wire Line
 Connection ~ 4850 2000
 Wire Wire Line
 	4850 2000 5050 2000
+Connection ~ 4850 2300
 $EndSCHEMATC
