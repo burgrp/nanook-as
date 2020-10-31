@@ -14,7 +14,7 @@ public:
 	FrequencyMeter frequencyMeter;
 	PeriodicAdc adc;
 
-	void init(target::i2c::Peripheral* peripheral, int address) {
+	void init(volatile target::i2c::Peripheral* peripheral, int address) {
 		for (int i = 0; i < sizeof(data) / sizeof(data[0]); i++) {
 			data[i] = 0;
 		}

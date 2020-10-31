@@ -32,7 +32,7 @@ public:
 
 	void startAdcConversion() {
 		int channelIdx = sensorIdx == analogSensCount - 2? 17: sensorIdx + analogSensBaseIdx;
-		target::ADC.CHSELR.setCHSEL(1 << (channelIdx));
+		target::ADC.CHSELR.setCHSEL(channelIdx, true);
 		target::ADC.CR.setADSTART(1);
 	}
 
