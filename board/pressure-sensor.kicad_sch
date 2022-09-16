@@ -317,7 +317,7 @@
     (uuid ee4df0dc-ae0e-4134-9b73-747f130c760d)
   )
 
-  (hierarchical_label "ADC-IN" (shape input) (at 137.16 76.2 0)
+  (hierarchical_label "ADC-IN" (shape input) (at 137.16 76.2 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid c25ea412-993c-48b0-a483-1827c3e792a4)
   )
