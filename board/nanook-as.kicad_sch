@@ -1816,119 +1816,119 @@
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22e7cc"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e7cc"
-      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22e7e2"
       (reference "#PWR027") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e7e2"
-      (reference "#PWR027") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e9a6"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22e9a6"
       (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22eb0d"
-      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22eb0d"
       (reference "#PWR029") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c22fcde"
-      (reference "#PWR034") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c22fbc8/00000000-0000-0000-0000-00005c22fcde"
       (reference "#PWR034") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c22fcde"
-      (reference "#PWR034") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c22fcde"
-      (reference "#PWR034") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c230d1e"
-      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c230d1e"
-      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c22fbc8/00000000-0000-0000-0000-00005c230d1e"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230d1e"
-      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230d38"
-      (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c22fbc8/00000000-0000-0000-0000-00005c230d38"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c230d38"
-      (reference "#PWR036") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22eb0d"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e9a6"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e7e2"
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e7cc"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c230d38"
-      (reference "#PWR036") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005b730b31"
-      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c22fcde"
+      (reference "#PWR0106") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005b72e37d"
-      (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c230d1e"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005b73420c"
-      (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230d38"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c22d4f9"
-      (reference "C4") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c22fcde"
+      (reference "#PWR0109") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230d1e"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c230d38"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c22fcde"
+      (reference "#PWR0112") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c230d1e"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c22d822"
-      (reference "C5") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e9be"
-      (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/00000000-0000-0000-0000-00005c22d4f9"
+      (reference "C2") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b72e37d"
+      (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b73420c"
+      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b730b31"
+      (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22e9be"
       (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c230cb7"
-      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230cb7"
-      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c230cb7"
-      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e9be"
+      (reference "C7") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22fbc8/00000000-0000-0000-0000-00005c230cb7"
       (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005b7355b0"
-      (reference "J1") (unit 1) (value "Address") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm")
+    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c230cb7"
+      (reference "C9") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230cb7"
+      (reference "C10") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c230cb7"
+      (reference "C11") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22f427"
-      (reference "J2") (unit 1) (value "Water Flow") (footprint "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal")
+      (reference "J1") (unit 1) (value "Water Flow") (footprint "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e77a"
-      (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal")
+    (path "/00000000-0000-0000-0000-00005b7355b0"
+      (reference "J2") (unit 1) (value "Address") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22e77a"
       (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c22fbed"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c22fbed"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e77a"
+      (reference "J4") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005c22fbc8/00000000-0000-0000-0000-00005c22fbed"
       (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
     )
+    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c22fbed"
+      (reference "J6") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c22fbed"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
+      (reference "J7") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c22fbed"
+      (reference "J8") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005c22fd3a"
       (reference "L1") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
@@ -1937,49 +1937,49 @@
       (reference "L2") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c23134a"
-      (reference "L2") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "L3") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22fbc8/00000000-0000-0000-0000-00005c230c76"
       (reference "L4") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230c76"
-      (reference "L4") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
-    )
     (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c230c76"
-      (reference "L4") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "L5") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c230c76"
+      (reference "L6") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c230c76"
-      (reference "L4") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "L7") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22e7f8"
       (reference "R1") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e7f8"
-      (reference "R1") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e835"
-      (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/00000000-0000-0000-0000-00005c22e635/00000000-0000-0000-0000-00005c22e835"
       (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c22fc9d"
-      (reference "R5") (unit 1) (value "(README.md)") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e7f8"
+      (reference "R3") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005c22f26b/00000000-0000-0000-0000-00005c22e835"
+      (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22fbc8/00000000-0000-0000-0000-00005c22fc9d"
       (reference "R5") (unit 1) (value "(README.md)") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/00000000-0000-0000-0000-00005c23178f/00000000-0000-0000-0000-00005c22fc9d"
+      (reference "R6") (unit 1) (value "(README.md)") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-00005c2318b8/00000000-0000-0000-0000-00005c22fc9d"
-      (reference "R5") (unit 1) (value "(README.md)") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R7") (unit 1) (value "(README.md)") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c2319d5/00000000-0000-0000-0000-00005c22fc9d"
-      (reference "R5") (unit 1) (value "(README.md)") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005b734beb"
-      (reference "U1") (unit 1) (value "STM32F030F4Px") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+      (reference "R8") (unit 1) (value "(README.md)") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c22d1d6"
-      (reference "U2") (unit 1) (value "SPX3819") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U1") (unit 1) (value "SPX3819") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/00000000-0000-0000-0000-00005b734beb"
+      (reference "U2") (unit 1) (value "STM32F030F4Px") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005b72e107"
       (reference "X1") (unit 1) (value "I2C-6P") (footprint "device.farm:Micro-Match-FOB-6")
