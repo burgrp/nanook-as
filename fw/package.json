@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"author": "paul",
 	"dependencies": {
-		"@device.farm/si-stm32-i2c": "^1.0.10",
+		"@device.farm/si-stm32-i2c": "^1.0.11",
 		"@device.farm/si-stm32-iwdg": "^1.0.4",
 		"@device.farm/si-stm32-timer": "^1.0.10",
 		"@device.farm/si-stm32f0x0": "^1.0.5"
