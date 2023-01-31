@@ -1,6 +1,7 @@
 # nanook-as
 NANOOK analog sensors board
 
+ ![nanook-as with ESP32C3](board/render.png)
 
 |COLD        |WATER IN |WATER OUT|FRIGO IN|FRIGO OUT|
 |------------|---------|---------|--------|---------|
