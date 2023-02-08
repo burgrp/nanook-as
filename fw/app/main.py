@@ -7,8 +7,7 @@ addr_width = 3
 
 addr_pins = []
 for b in range(addr_width):
-    print(f'{addr_pin0 + b}')
-    pin = Pin(12, Pin.OUT)
+    pin = Pin(addr_pin0 + b, Pin.OUT)
     pin.value(0)
     addr_pins.append(pin)
 
