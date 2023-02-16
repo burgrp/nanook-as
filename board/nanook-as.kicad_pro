@@ -70,8 +70,9 @@
         "solder_mask_bridge|208750000|88687500|2b686a3f-bfb8-46c5-ba67-5e8ee7374174|b2c634ec-045a-423a-a370-d902dd199792",
         "starved_thermal|168635000|91525000|442adea8-e0d3-4f7e-a523-2abc458a37f9|76bcf799-a449-47c6-afe6-6c8ae0262a76|F.Cu",
         "starved_thermal|188500000|105087500|442adea8-e0d3-4f7e-a523-2abc458a37f9|f93b466f-4efa-4e37-a1e4-fa2504c3d415|F.Cu",
+        "starved_thermal|191250000|94950000|442adea8-e0d3-4f7e-a523-2abc458a37f9|2b9ebf7b-ea63-4bac-8aba-2cea7d07ad58|F.Cu",
+        "starved_thermal|205050000|95150000|442adea8-e0d3-4f7e-a523-2abc458a37f9|3df57853-382a-4fb2-bc1d-1ddef0467e73|F.Cu",
         "starved_thermal|207100000|99562500|442adea8-e0d3-4f7e-a523-2abc458a37f9|61412937-8ec5-49f5-88b8-01e72d62144f|F.Cu",
-        "starved_thermal|207600000|97150000|442adea8-e0d3-4f7e-a523-2abc458a37f9|1dccac63-99f2-4173-8e03-c7123775743b|F.Cu",
         "starved_thermal|214000000|101960000|442adea8-e0d3-4f7e-a523-2abc458a37f9|b23b7e0c-8eb5-4447-be17-9c18630b2feb|F.Cu",
         "via_dangling|144000000|90000000|00000000-0000-0000-0000-00005c2376a4|00000000-0000-0000-0000-000000000000",
         "via_dangling|213000000|90000000|00000000-0000-0000-0000-00005c2376a1|00000000-0000-0000-0000-000000000000"
@@ -530,6 +531,10 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.25,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
       "pin_symbol_size": 0.0,
       "text_offset_ratio": 0.08
     },
@@ -551,8 +556,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
