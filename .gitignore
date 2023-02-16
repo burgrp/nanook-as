@@ -7,3 +7,4 @@ node_modules
 fw/build
 gerber.zip
 .vscode
+fp-info-cache
