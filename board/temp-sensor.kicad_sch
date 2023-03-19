@@ -1,4 +1,4 @@
-(kicad_sch (version 20230121) (generator eeschema)
+(kicad_sch (version 20230221) (generator eeschema)
 
   (uuid f0bd6c82-c924-49e6-bc98-421e593252a1)
 
@@ -320,7 +320,7 @@
     (property "Reference" "R7" (at 143.51 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "(README.md)" (at 144.78 78.74 0)
+    (property "Value" "(cold: 4x 56k, hot: 3x 4k7 frigo in: 56k)" (at 139.7 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 137.922 77.47 90)
