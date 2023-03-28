@@ -24,15 +24,7 @@ pub fn main() !void {
 
     INTERRUPT_CORE0.CPU_INT_ENABLE.raw = 0;
 
-    microzig.hal.gpio.init(LED_R_PIN, .{
-        .direction = .output,
-        .direct_io = true,
-    });
-    microzig.hal.gpio.init(LED_G_PIN, .{
-        .direction = .output,
-        .direct_io = true,
-    });
-    microzig.hal.gpio.init(LED_B_PIN, .{
+    microzig.hal.gpio.init(LED_PIN, .{
         .direction = .output,
         .direct_io = true,
     });
@@ -40,18 +32,11 @@ pub fn main() !void {
     microzig.hal.uart.write(0, "Hello from Zig!\r\n");
 
     while (true) {
-        GPIO.OUT.modify(.{ .DATA_ORIG = (1 << LED_R_PIN) });
+        GPIO.OUT.modify(.{ .DATA_ORIG = (1 << LED_PIN) });
         microzig.hal.uart.write(0, "R");
-        microzig.core.experimental.debug.busy_sleep(1_000_000);
-        GPIO.OUT.modify(.{ .DATA_ORIG = (1 << LED_G_PIN) });
-        microzig.hal.uart.write(0, "G");
-        microzig.core.experimental.debug.busy_sleep(1_000_000);
-        GPIO.OUT.modify(.{ .DATA_ORIG = (1 << LED_B_PIN) });
-        microzig.hal.uart.write(0, "B");
         microzig.core.experimental.debug.busy_sleep(1_000_000);
     }
 }
 
-const LED_R_PIN = 3; // GPIO
-const LED_G_PIN = 16; // GPIO
-const LED_B_PIN = 17; // GPIO
+const LED_PIN = 14; // GPIO
+

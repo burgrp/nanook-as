@@ -1,3 +1,4 @@
 [submodule "fw-zig/vendor/espressif-esp"]
 	path = fw-zig/vendor/espressif-esp
 	url = https://github.com/ZigEmbeddedGroup/espressif-esp.git
+	branch = main
