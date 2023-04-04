@@ -3,20 +3,10 @@ NANOOK analog sensors board
 
  ![nanook-as with ESP32C3](board/render.png)
 
-|COLD        |WATER IN |WATER OUT|FRIGO IN|FRIGO OUT|
-|------------|---------|---------|--------|---------|
-|            |   R7    |   R8    |   R9   |   R10   |
-| t          |-14..14  |-14..14  |-14..14 |-14..14  |
-| R          |66k      |66k      |66k     |66k      |
+Temperature sensor divider R2=4k7 calculated for range:
 
+|   | temp  |R1 (NTC 3950/10k) |  R2 | Vout   |
+|---|-------|------------------|-----|--------|
+|min| -24°C | 110k             | 4k7 | 102mV  |
+|max| 175°C | 0.1027k          | 4k7 | 2446mV |
 
-|HOT         |WATER IN |WATER OUT|FRIGO IN|FRIGO OUT|
-|------------|---------|---------|--------|---------|
-|            |   R7    |   R8    |   R9   |   R10   |
-| t          |26..59   |36..70   |96..143 |26..59   |
-| R1         |10k      |6.65k    |780R    |10k      |
-
-Values calculated for Vin=3.3V Vout=150mV...2450mV (11dB attenuation on ADC).
-TODO: redesign board to provide 2.5V Vin to achieve wider range.
-
-Pressure sensor dividers remain unchanged, as maximum pressures at 2450mV for cold and hot side are 7.2bar and 26bar resp.

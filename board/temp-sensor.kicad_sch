@@ -140,11 +140,11 @@
         )
       )
     )
-    (symbol "power:+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+2V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3.3VA" (at 0 3.556 0)
+      (property "Value" "+2V5" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -156,10 +156,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3VA\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+2V5\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3.3VA_0_1"
+      (symbol "+2V5_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -185,9 +185,9 @@
           (fill (type none))
         )
       )
-      (symbol "+3.3VA_1_1"
+      (symbol "+2V5_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3VA" (effects (font (size 1.27 1.27))))
+          (name "+2V5" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -320,7 +320,7 @@
     (property "Reference" "R7" (at 143.51 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "(cold: 4x 56k, hot: 3x 4k7 frigo in: 56k)" (at 139.7 63.5 0)
+    (property "Value" "4k7" (at 143.51 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 137.922 77.47 90)
@@ -329,8 +329,8 @@
     (property "Datasheet" "~" (at 139.7 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7631bbdd-2a0b-4899-8cc4-ed085faf0808))
-    (pin "2" (uuid 843cb73d-6eca-4991-abed-224cf1067d53))
+    (pin "1" (uuid d543f0e8-6349-4387-8c82-9d4b18d9f927))
+    (pin "2" (uuid afbd94d9-55b8-47c7-8830-87b4e368f0e7))
     (instances
       (project "nanook-as"
         (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c22fbc8"
@@ -355,7 +355,7 @@
     (property "Reference" "C12" (at 160.02 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 158.75 80.01 0)
+    (property "Value" "100n" (at 160.02 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 157.1752 81.28 0)
@@ -379,6 +379,40 @@
         )
         (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c2319d5"
           (reference "C15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+2V5") (at 129.54 69.85 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 47ea805a-6f07-4af8-934b-e598baaec964)
+    (property "Reference" "#PWR09" (at 125.73 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V5" (at 132.715 70.1668 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 129.54 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 129.54 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 28d28c55-8adf-4255-97d5-d1413d079815))
+    (instances
+      (project "nanook-as"
+        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c22fbc8"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c23178f"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c2318b8"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c2319d5"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -447,40 +481,6 @@
         )
         (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c2318b8"
           (reference "#PWR0141") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3VA") (at 129.54 69.85 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f85c4c43-d53b-4663-a8cd-7a618cdfcc87)
-    (property "Reference" "#PWR0137" (at 125.73 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3VA" (at 132.715 70.1819 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 129.54 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 129.54 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d15c5cce-c332-4622-9654-2119cbeb1cf4))
-    (instances
-      (project "nanook-as"
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c22fbc8"
-          (reference "#PWR0137") (unit 1)
-        )
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c23178f"
-          (reference "#PWR0140") (unit 1)
-        )
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c2318b8"
-          (reference "#PWR0143") (unit 1)
-        )
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c2319d5"
-          (reference "#PWR0146") (unit 1)
         )
       )
     )

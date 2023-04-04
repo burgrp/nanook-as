@@ -55,28 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|150400000|99450000|704bb088-488c-4581-8b19-5871fd36e55f|86ae33d2-30eb-4923-8da9-be7076224297",
-        "clearance|208368750|88500000|b2c634ec-045a-423a-a370-d902dd199792|a834e8cc-c975-49da-9556-e8265294c16b",
-        "clearance|208750000|88687500|b2c634ec-045a-423a-a370-d902dd199792|2b686a3f-bfb8-46c5-ba67-5e8ee7374174",
-        "courtyards_overlap|207900001|88000001|b2e958c9-6ec6-433e-aa68-1ae56eae83a3|e4acc0b1-0eba-4e03-a637-a6f341ce697a",
-        "footprint_type_mismatch|148000000|102000000|00000000-0000-0000-0000-00005c23872b|00000000-0000-0000-0000-000000000000",
-        "solder_mask_bridge|150400000|99450000|86ae33d2-30eb-4923-8da9-be7076224297|704bb088-488c-4581-8b19-5871fd36e55f",
-        "solder_mask_bridge|196087500|95812500|84db6b90-8da5-40ff-9e90-0e59bf8f9795|158f58d6-53e2-4593-b9ae-73b0edcfa89a",
-        "solder_mask_bridge|196337500|91937500|81ab5bc5-0ed8-4890-bca3-4dee1605420c|cf56a780-c391-4d7c-81c5-a584632aaaab",
-        "solder_mask_bridge|199962500|91937500|b074a738-f38a-4c2d-abc6-d4e2542f2fff|84d7bf66-ba10-4d63-9c60-5c44272ceef6",
-        "solder_mask_bridge|199962500|96062500|8c9d52c0-da88-4011-82cd-7962319363ab|247e2953-71ef-4271-a95d-78d9a316a0ec",
-        "solder_mask_bridge|208368750|88500000|a834e8cc-c975-49da-9556-e8265294c16b|b2c634ec-045a-423a-a370-d902dd199792",
-        "solder_mask_bridge|208750000|88687500|2b686a3f-bfb8-46c5-ba67-5e8ee7374174|b2c634ec-045a-423a-a370-d902dd199792",
-        "starved_thermal|168635000|91525000|442adea8-e0d3-4f7e-a523-2abc458a37f9|76bcf799-a449-47c6-afe6-6c8ae0262a76|F.Cu",
-        "starved_thermal|188500000|105087500|442adea8-e0d3-4f7e-a523-2abc458a37f9|f93b466f-4efa-4e37-a1e4-fa2504c3d415|F.Cu",
-        "starved_thermal|191250000|94950000|442adea8-e0d3-4f7e-a523-2abc458a37f9|2b9ebf7b-ea63-4bac-8aba-2cea7d07ad58|F.Cu",
-        "starved_thermal|205050000|95150000|442adea8-e0d3-4f7e-a523-2abc458a37f9|3df57853-382a-4fb2-bc1d-1ddef0467e73|F.Cu",
-        "starved_thermal|207100000|99562500|442adea8-e0d3-4f7e-a523-2abc458a37f9|61412937-8ec5-49f5-88b8-01e72d62144f|F.Cu",
-        "starved_thermal|214000000|101960000|442adea8-e0d3-4f7e-a523-2abc458a37f9|b23b7e0c-8eb5-4447-be17-9c18630b2feb|F.Cu",
-        "via_dangling|144000000|90000000|00000000-0000-0000-0000-00005c2376a4|00000000-0000-0000-0000-000000000000",
-        "via_dangling|213000000|90000000|00000000-0000-0000-0000-00005c2376a1|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -425,7 +404,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",

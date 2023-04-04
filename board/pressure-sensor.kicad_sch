@@ -303,7 +303,7 @@
     (property "Reference" "R3" (at 120.65 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4k7" (at 120.65 73.66 0)
+    (property "Value" "10k" (at 120.65 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 115.062 72.39 90)
