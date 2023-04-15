@@ -1,4 +1,4 @@
-(kicad_sch (version 20230221) (generator eeschema)
+(kicad_sch (version 20230409) (generator eeschema)
 
   (uuid bd0055da-0838-4c4c-b506-87ee1119a3e6)
 
@@ -1344,6 +1344,7 @@
   (no_connect (at 144.78 52.07) (uuid 69b26726-4282-4e8b-b854-e3ab6bccd582))
   (no_connect (at 88.9 41.91) (uuid 7b6753fd-860f-4e08-a9a7-8aa90876ac05))
   (no_connect (at 144.78 31.75) (uuid 7c55d9c1-a9b6-4f09-8908-709fcff13c79))
+  (no_connect (at 144.78 77.47) (uuid 90e5764c-7d4f-49dc-becc-33abfb5dde46))
   (no_connect (at 144.78 59.69) (uuid 981b0c65-fbfb-4ae6-a5d2-261883b5b20c))
   (no_connect (at 144.78 62.23) (uuid a979d240-be9d-4c4a-876a-af57f3af00b3))
   (no_connect (at 88.9 31.75) (uuid c7354094-9b0e-4c2b-b1d5-87863c9be7c3))
@@ -1364,10 +1365,6 @@
   (wire (pts (xy 185.42 130.81) (xy 190.5 130.81))
     (stroke (width 0) (type default))
     (uuid 0b56e4c8-7623-4972-9e10-4a18f1f8aad3)
-  )
-  (wire (pts (xy 152.4 77.47) (xy 144.78 77.47))
-    (stroke (width 0) (type default))
-    (uuid 0d898a0c-bd80-41b3-9144-03c22cccb93c)
   )
   (wire (pts (xy 54.61 35.56) (xy 54.61 36.83))
     (stroke (width 0) (type default))
@@ -2148,38 +2145,6 @@
       (project "nanook-as"
         (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6"
           (reference "#PWR0105") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 156.21 77.47 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 35fced63-3789-4e58-8a91-a9abb1b78c28)
-    (property "Reference" "R2" (at 158.75 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10k" (at 153.67 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 156.21 75.692 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 156.21 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c71d4d2a-40e7-4753-9a83-6fe94c3c5094))
-    (pin "2" (uuid bad7a676-2e48-4212-a5a8-091069b03852))
-    (instances
-      (project "nanook-as"
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c22e635"
-          (reference "R2") (unit 1)
-        )
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6/00000000-0000-0000-0000-00005c22f26b"
-          (reference "R4") (unit 1)
-        )
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6"
-          (reference "R2") (unit 1)
         )
       )
     )
@@ -3131,31 +3096,6 @@
       (project "nanook-as"
         (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6"
           (reference "C16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 160.02 77.47 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ef0658aa-bebc-4f0b-ba0d-326de1f1dcaf)
-    (property "Reference" "#PWR0125" (at 156.21 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 166.37 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 160.02 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c7ea5dff-8c21-4f98-857d-44c7a0f398f6))
-    (instances
-      (project "nanook-as"
-        (path "/bd0055da-0838-4c4c-b506-87ee1119a3e6"
-          (reference "#PWR0125") (unit 1)
         )
       )
     )
